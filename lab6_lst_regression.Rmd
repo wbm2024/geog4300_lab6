@@ -55,10 +55,16 @@ We will start by exploring the distribution of our variables.
 **Question 1** _Create histograms for LST, NDVI, impervious surface, tree cover, precipitation, slope, and elevation. Based on these graphs, assess the normality of these variables._
 
 ```{r}
-#Code goes here.
+hist(lab6_data$lst_c)
+hist(lab6_data$ndvi)
+hist(lab6_data$impervious_pct)
+hist(lab6_data$tree_cover_pct)
+hist(lab6_data$prism_ppt_mm)
+hist(lab6_data$slope)
+hist(lab6_data$elevation)
 ```
 
-{Your assessment of the variables' normality goes here.}
+{Your assessment of the variables' normality goes here.} IMPERVIOUS_PCT IS NOT NORMALLY DISTRIBUTED
 
 **Question 2** _Use tmap to map these same variables using "fisher" as the classification method/style. For an extra challenge, use `tmap_arrange` to plot all maps in a single figure._
 
