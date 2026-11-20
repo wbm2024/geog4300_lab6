@@ -5,6 +5,8 @@ editor_options:
   chunk_output_type: console
 ---
 
+**Name: William Burgett-Merkel**
+
 ```{r, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -25,7 +27,7 @@ This lab focuses on regression techniques. You'll be analyzing the association o
 Let's import the dataset.
 
 ```{r}
-lab6_data<-st_read("data/lab6_gee_lstdata.gpkg") 
+lab6_data<-st_read("geog4300_lab6/data/lab6_gee_lstdata.gpkg") 
 ```
 
 The variables in the dataset are:
